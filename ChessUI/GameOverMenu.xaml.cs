@@ -20,14 +20,21 @@ namespace ChessUI
     /// </summary>
     public partial class GameOverMenu : UserControl
     {
-        public GameOverMenu()
-        {
-            InitializeComponent();
-        }
+            public GameOverMenu()
+            {
+                InitializeComponent();
+            }
 
-        private void Restart_Click(object sender, RoutedEventArgs e)
-        {
+            private void Restart_Click(object sender, RoutedEventArgs e)
+            {
 
-        }
+            }
+
+        
+
+         private void Exit_Click(object sender, RoutedEventArgs e)
+         {
+
+         }
     }
 }

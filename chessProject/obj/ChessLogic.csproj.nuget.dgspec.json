@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programming\\#C\\myProject\\chessProject\\ChessLogic.csproj": {}
+    "D:\\programming\\#C\\myProject\\Chess\\chessProject\\ChessLogic.csproj": {}
   },
   "projects": {
-    "D:\\programming\\#C\\myProject\\chessProject\\ChessLogic.csproj": {
+    "D:\\programming\\#C\\myProject\\Chess\\chessProject\\ChessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programming\\#C\\myProject\\chessProject\\ChessLogic.csproj",
+        "projectUniqueName": "D:\\programming\\#C\\myProject\\Chess\\chessProject\\ChessLogic.csproj",
         "projectName": "ChessLogic",
-        "projectPath": "D:\\programming\\#C\\myProject\\chessProject\\ChessLogic.csproj",
+        "projectPath": "D:\\programming\\#C\\myProject\\Chess\\chessProject\\ChessLogic.csproj",
         "packagesPath": "C:\\Users\\pro\\.nuget\\packages\\",
-        "outputPath": "D:\\programming\\#C\\myProject\\chessProject\\obj\\",
+        "outputPath": "D:\\programming\\#C\\myProject\\Chess\\chessProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pro\\AppData\\Roaming\\NuGet\\NuGet.Config",

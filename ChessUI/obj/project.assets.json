@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\programming\\#C\\myProject\\ChessUI\\ChessUI.csproj",
+      "projectUniqueName": "D:\\programming\\#C\\myProject\\Chess\\ChessUI\\ChessUI.csproj",
       "projectName": "ChessUI",
-      "projectPath": "D:\\programming\\#C\\myProject\\ChessUI\\ChessUI.csproj",
+      "projectPath": "D:\\programming\\#C\\myProject\\Chess\\ChessUI\\ChessUI.csproj",
       "packagesPath": "C:\\Users\\pro\\.nuget\\packages\\",
-      "outputPath": "D:\\programming\\#C\\myProject\\ChessUI\\obj\\",
+      "outputPath": "D:\\programming\\#C\\myProject\\Chess\\ChessUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\programming\\#C\\myProject\\chessProject\\ChessLogic.csproj": {
-              "projectPath": "D:\\programming\\#C\\myProject\\chessProject\\ChessLogic.csproj"
+            "D:\\programming\\#C\\myProject\\Chess\\chessProject\\ChessLogic.csproj": {
+              "projectPath": "D:\\programming\\#C\\myProject\\Chess\\chessProject\\ChessLogic.csproj"
             }
           }
         }
