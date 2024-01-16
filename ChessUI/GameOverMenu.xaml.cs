@@ -20,6 +20,8 @@ namespace ChessUI
     /// </summary>
     public partial class GameOverMenu : UserControl
     {
+        public partial class GameOverMenu : UserControl
+        {
             public GameOverMenu()
             {
                 InitializeComponent();
@@ -29,12 +31,7 @@ namespace ChessUI
             {
 
             }
-
-        
-
-         private void Exit_Click(object sender, RoutedEventArgs e)
-         {
-
-         }
+        }
     }
+}
 }
