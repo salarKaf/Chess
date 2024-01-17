@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\chessProject",
-    "\\ChessUI"
+    ""
   ],
-  "SelectedNode": "\\ChessUI\\GameOverMenu.xaml.cs",
+  "SelectedNode": "\\chessProject.sln",
   "PreviewInSolutionExplorer": false
 }

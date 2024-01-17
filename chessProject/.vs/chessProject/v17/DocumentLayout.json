@@ -1,0 +1,619 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\moves\\castle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:moves\\castle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\typepieces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:typepieces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\statestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:statestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\movetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:movetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\endreason.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:endreason.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\counting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:counting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\pieces\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:pieces\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\pieces\\queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:pieces\\queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\pieces\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:pieces\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\pieces\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:pieces\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\pieces\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:pieces\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\pieces\\bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:pieces\\bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\moves\\doublepawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:moves\\doublepawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\moves\\enpassant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:moves\\enpassant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\moves\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:moves\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\moves\\normalmoves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:moves\\normalmoves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|c:\\users\\dell5\\source\\repos\\chess\\chessproject\\moves\\pawnpromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7586665C-2704-44B2-ADA6-EA15B907BC38}|ChessLogic.csproj|solutionrelative:moves\\pawnpromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\ChessCursors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\Option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PromotionMenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\ChessUI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PauseMenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PauseMenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PromotionMenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\GameOverMenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\GameOverMenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Direction.cs",
+              "RelativeDocumentMoniker": "Direction.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Direction.cs",
+              "RelativeToolTip": "Direction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T16:56:06.72Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChessCursors.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\ChessCursors.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\ChessCursors.cs",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\ChessCursors.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\ChessCursors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T22:13:55.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Position.cs",
+              "RelativeDocumentMoniker": "Position.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Position.cs",
+              "RelativeToolTip": "Position.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T19:10:29.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Result.cs",
+              "RelativeDocumentMoniker": "Result.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Result.cs",
+              "RelativeToolTip": "Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-12T23:37:44.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StateString.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\StateString.cs",
+              "RelativeDocumentMoniker": "StateString.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\StateString.cs",
+              "RelativeToolTip": "StateString.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T21:11:04.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\AssemblyInfo.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T15:06:08.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Option.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\Option.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\Option.cs",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\Option.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\Option.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T13:51:45.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PromotionMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PromotionMenu.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\PromotionMenu.xaml",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PromotionMenu.xaml",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\PromotionMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-13T19:22:46.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Castle.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\Castle.cs",
+              "RelativeDocumentMoniker": "Moves\\Castle.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\Castle.cs",
+              "RelativeToolTip": "Moves\\Castle.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA+wBQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T16:27:44.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T16:55:58.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MoveType.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\MoveType.cs",
+              "RelativeDocumentMoniker": "MoveType.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\MoveType.cs",
+              "RelativeToolTip": "MoveType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T16:55:59.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\GameState.cs",
+              "RelativeDocumentMoniker": "GameState.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\GameState.cs",
+              "RelativeToolTip": "GameState.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T19:10:25.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EndReason.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\EndReason.cs",
+              "RelativeDocumentMoniker": "EndReason.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\EndReason.cs",
+              "RelativeToolTip": "EndReason.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T16:56:05.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TypePieces.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\TypePieces.cs",
+              "RelativeDocumentMoniker": "TypePieces.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\TypePieces.cs",
+              "RelativeToolTip": "TypePieces.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T21:15:41.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ChessUI.csproj",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\ChessUI.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\ChessUI.csproj",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\ChessUI.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\ChessUI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-13T18:03:48.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Counting.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Counting.cs",
+              "RelativeDocumentMoniker": "Counting.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Counting.cs",
+              "RelativeToolTip": "Counting.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwCcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T20:19:34.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Board.cs",
+              "RelativeDocumentMoniker": "Board.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Board.cs",
+              "RelativeToolTip": "Board.cs",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAWwM4AAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T19:10:17.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Rook.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\Rook.cs",
+              "RelativeDocumentMoniker": "Pieces\\Rook.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\Rook.cs",
+              "RelativeToolTip": "Pieces\\Rook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T16:56:19.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Queen.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\Queen.cs",
+              "RelativeDocumentMoniker": "Pieces\\Queen.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\Queen.cs",
+              "RelativeToolTip": "Pieces\\Queen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T16:56:22.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Piece.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\Piece.cs",
+              "RelativeDocumentMoniker": "Pieces\\Piece.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\Piece.cs",
+              "RelativeToolTip": "Pieces\\Piece.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T16:56:25.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Pawn.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\Pawn.cs",
+              "RelativeDocumentMoniker": "Pieces\\Pawn.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\Pawn.cs",
+              "RelativeToolTip": "Pieces\\Pawn.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAqwFcAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T14:47:25.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Knight.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\Knight.cs",
+              "RelativeDocumentMoniker": "Pieces\\Knight.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\Knight.cs",
+              "RelativeToolTip": "Pieces\\Knight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T21:17:13.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "King.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\King.cs",
+              "RelativeDocumentMoniker": "Pieces\\King.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\King.cs",
+              "RelativeToolTip": "Pieces\\King.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T16:42:04.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BiShop.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\BiShop.cs",
+              "RelativeDocumentMoniker": "Pieces\\BiShop.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Pieces\\BiShop.cs",
+              "RelativeToolTip": "Pieces\\BiShop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T21:17:10.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DoublePawn.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\DoublePawn.cs",
+              "RelativeDocumentMoniker": "Moves\\DoublePawn.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\DoublePawn.cs",
+              "RelativeToolTip": "Moves\\DoublePawn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T19:10:44.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EnPassant.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\EnPassant.cs",
+              "RelativeDocumentMoniker": "Moves\\EnPassant.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\EnPassant.cs",
+              "RelativeToolTip": "Moves\\EnPassant.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T19:10:46.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Move.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\Move.cs",
+              "RelativeDocumentMoniker": "Moves\\Move.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\Move.cs",
+              "RelativeToolTip": "Moves\\Move.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T19:10:47.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NormalMoves.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\NormalMoves.cs",
+              "RelativeDocumentMoniker": "Moves\\NormalMoves.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\NormalMoves.cs",
+              "RelativeToolTip": "Moves\\NormalMoves.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T17:04:03.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PawnPromotion.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\PawnPromotion.cs",
+              "RelativeDocumentMoniker": "Moves\\PawnPromotion.cs",
+              "ToolTip": "C:\\Users\\dell5\\source\\repos\\Chess\\chessProject\\Moves\\PawnPromotion.cs",
+              "RelativeToolTip": "Moves\\PawnPromotion.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T19:11:15.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAWwMoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T19:41:58.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PauseMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PauseMenu.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\PauseMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PauseMenu.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\PauseMenu.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAACAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T19:09:22.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PauseMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PauseMenu.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\PauseMenu.xaml",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PauseMenu.xaml",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\PauseMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-13T19:09:11.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PromotionMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PromotionMenu.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\PromotionMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\PromotionMenu.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\PromotionMenu.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAB8AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T19:34:18.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\MainWindow.xaml",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-13T19:41:54.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GameOverMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\GameOverMenu.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\GameOverMenu.xaml",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\GameOverMenu.xaml",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\GameOverMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-12T23:37:44.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GameOverMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\GameOverMenu.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\GameOverMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\GameOverMenu.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\GameOverMenu.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-12T23:37:44.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\App.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-13T15:06:07.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\App.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\App.xaml",
+              "ToolTip": "C:\\Users\\dell5\\Desktop\\chess\\Chess\\ChessUI\\App.xaml",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\chess\\Chess\\ChessUI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-12T23:37:44.727Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -22,13 +22,15 @@ namespace ChessLogic
         }
 
 
-        public override void Execute(Board board)
+        public override bool Execute(Board board)
         {
             Piece piece = board[FromPosition];
+            bool capture = !board.IsEmpty(ToPosition);
             board[ToPosition] = piece;
             board[FromPosition] = null;
             piece.IsPlaying = true;
 
+            return capture || piece.Type == TypePieces.Pawn;
         }
     }
 }

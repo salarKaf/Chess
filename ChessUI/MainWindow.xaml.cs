@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ChessLogic;
+using ChessLogic.Moves;
 
 namespace ChessUI
 {
@@ -74,6 +75,12 @@ namespace ChessUI
 
         private void BoardGrid_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            if(IsMenuOnScreen())
+            {
+                return;
+            }
+
+
             Point point = e.GetPosition(BoardGrid);
             Position pos = ToSquarePosition(point);
 
@@ -118,18 +125,43 @@ namespace ChessUI
 
             if(moveCache.TryGetValue(pos  , out Move move))
             {
-                HandelMove(move);
+                if (move.Type == MoveType.PawnPromotion)
+                {
+                    HandlePromotion(move.FromPosition, move.ToPosition);
+                }
+                else
+                {
+                    HandelMove(move);
+                }
             }
         }
+        private void HandlePromotion(Position from,Position to)
+        {
+            pieceImages[to.Row, to.Column].Source = Images.GetImage(gameState.CurrentPlayer, TypePieces.Pawn);
+            pieceImages[from.Row, from.Column].Source = null;
+
+            PromotionMenu proMenu = new PromotionMenu(gameState.CurrentPlayer);
+            MenuContainer.Content = proMenu;
+
+            proMenu.PieceSelected += type =>
+            {
+                MenuContainer.Content = null;
+                Move proMove = new PawnPromotion(from, to, type);
+                HandelMove(proMove);
+            };
+        }
+
 
         private void HandelMove(Move move)
         {
             gameState.MakeMove(move);
             DrawBoard(gameState.Board);
-
-            /*
             SetCursor(gameState.CurrentPlayer);
-            */
+
+            if (gameState.IsGameOver())
+            {
+                ShowGameOver();
+            }
         }
 
 
@@ -164,11 +196,11 @@ namespace ChessUI
         }
 
 
-        /*
+    
 
         private void SetCursor(Player player)
         {
-            if(player==Player.white)
+            if(player==Player.White)
             {
                 Cursor = ChessCursors.WhiteCursor;
             }
@@ -178,8 +210,62 @@ namespace ChessUI
                 Cursor = ChessCursors.BlackCursor;
             }
         }
-        */
 
+        private bool IsMenuOnScreen()
+        {
+            return MenuContainer.Content != null;
+        }
+
+        private void ShowGameOver()
+        {
+            GameOverMenu gameOverMenu = new GameOverMenu(gameState);
+            MenuContainer.Content = gameOverMenu;
+
+            gameOverMenu.OptionSelected += option =>
+            {
+                if (option == Option.Restart)
+                {
+                    MenuContainer.Content = null;
+                    RestartGame();
+                }
+                else
+                {
+                    Application.Current.Shutdown();
+                }
+            };
+        }
+
+        private void RestartGame()
+        {
+            selectedPos = null;
+            HideHighlights();
+            moveCache.Clear();
+            gameState = new GameState(Player.White , Board.intial());
+            DrawBoard(gameState.Board);
+            SetCursor(gameState.CurrentPlayer);
+        }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (!IsMenuOnScreen() && e.Key == Key.Escape)
+            {
+                ShowPauseMenu();
+            }
+        }
+        private void ShowPauseMenu()
+        {
+            PauseMenu pauseMenu = new PauseMenu();
+            MenuContainer.Content = pauseMenu;
+
+            pauseMenu.OptionSelected += option =>
+            {
+                MenuContainer.Content = null;
+                if (option == Option.Restart)
+                {
+                    RestartGame();
+                }
+            };
+        }
     } 
 
 }

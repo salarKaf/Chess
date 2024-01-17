@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ChessLogic.Moves;
+
 namespace ChessLogic
 {
 
@@ -54,40 +56,76 @@ namespace ChessLogic
 
                 return board[pos].Color != Color;
             }
+            
+            private static IEnumerable<Move> PromotionMoves(Position from , Position to)
+        {
+            yield return new PawnPromotion(from,to,TypePieces.knight);
+            yield return new PawnPromotion(from,to,TypePieces.BiShop);
+            yield return new PawnPromotion(from,to,TypePieces.Rook);
+            yield return new PawnPromotion(from,to,TypePieces.Queen);
+        }
             private IEnumerable<Move> ForwardMoves(Position from , Board board) {
 
                 Position oneMovePos =  from + forward ;
 
                 if(CanMoveTo(oneMovePos, board))
                 {
-                    yield return new NormalMoves(from , oneMovePos);
+                    if (oneMovePos.Row == 0 || oneMovePos.Row ==7)
+                    {
+                       foreach (Move proMove in PromotionMoves(from,oneMovePos))
+                       {
+                        yield return proMove;
+                       }
+                    }
+                    else
+                    {
+                       yield return new NormalMoves(from, oneMovePos);
+                    }
+                    
 
                     Position twoMovePos = oneMovePos+forward;
 
                     if( !IsPlaying && CanMoveTo(twoMovePos, board))
                     {
-                        yield return new NormalMoves(from, twoMovePos);
+                        yield return new DoublePawn(from, twoMovePos);
                     }
                 }
 
             }
 
 
-            private IEnumerable<Move> DiagonalMoves(Position from , Board board)
+        private IEnumerable<Move> DiagonalMoves(Position from, Board board)
+        {
+
+            foreach (Direction dir in new Direction[] { Direction.West, Direction.East })
             {
-
-                foreach(Direction dir in new Direction[] {Direction.West , Direction.East} )
+                Position to = from + dir + forward;
+                if (to == board.GetPawnSkipPosition(Color.Opponent()))
                 {
-                    Position to = from + dir + forward;
-
-                    if (CanCaptureAt(to, board))
-                    {
-                        yield return new NormalMoves(from, to);
-                    }
-                   
+                    yield return new EnPassant(from, to);
                 }
-                
+
+                else if (CanCaptureAt(to, board))
+                {
+                    if (CanMoveTo(to, board))
+                    {
+                        if (to.Row == 0 || to.Row == 7)
+                        {
+                            foreach (Move proMove in PromotionMoves(from, to))
+                            {
+                                yield return proMove;
+                            }
+                        }
+                        else
+                        {
+                            yield return new NormalMoves(from, to);
+                        }
+                    }
+
+                }
+
             }
+        }
 
             public override IEnumerable<Move> GetMoves(Position from , Board board )
             {
